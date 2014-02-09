@@ -1,6 +1,12 @@
 {
   "type": "FeatureCollection",
   "features": [
+  { 
+   "type": "Feature",
+      "properties": {
+        "marker-symbol": "bicycle",
+        "marker-color": "#87CEEB"
+      },
     {
       "geometries": [
         {
@@ -1831,11 +1837,8 @@
           }
         }
       ],
-      "properties": {
-        "marker-symbol": "bicycle",
-        "marker-color": "#87CEEB"
-      },
       "type": "GeometryCollection"
+    }
     }
   ]
 }
